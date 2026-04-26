@@ -1,0 +1,2 @@
+<footer class="bg-white rounded shadow p-5 mb-4 mt-4">
+</footer>
