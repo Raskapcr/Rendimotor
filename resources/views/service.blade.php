@@ -134,7 +134,7 @@
         <!-- Tampilkan tombol "Booking" jika user sudah login -->
         <h5 class="text-uppercase d-flex align-items-center justify-content-center mt-3">Booking Di Bawah Ini</h5>
         <!-- Tampilkan tombol WhatsApp jika user sudah login -->
-        <a href="https://wa.me/62895618158063" target="_blank" class="order_online btn btn-primary d-flex align-items-center justify-content-center mt-3">
+        <a href="https://wa.me/6282286977924" target="_blank" class="order_online btn btn-primary d-flex align-items-center justify-content-center mt-3">
             <i class="fa fa-whatsapp" aria-hidden="true" style="margin-right: 5px;"></i> Chat via WhatsApp
         </a>
         @endauth
