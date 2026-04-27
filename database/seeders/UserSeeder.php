@@ -16,7 +16,7 @@ class UserSeeder extends Seeder
             'email'    => 'lulu@gmail.com',
             'password' => Hash::make('password123'), // Passwordnya: password123
             'role'     => 'Administrator',
-            'photo'    => 'default.png',
+
         ]);
 
         // Tambah user lain jika perlu
@@ -25,14 +25,14 @@ class UserSeeder extends Seeder
             'email'    => 'staff@gmail.com',
             'password' => Hash::make('password123'),
             'role'     => 'Staff',
-            'photo'    => 'default.png',
+
         ]);
         User::create([
             'name'     => 'Raska',
             'email'    => 'raska@gmail.com',
             'password' => Hash::make('password123'), // Passwordnya: password123
             'role'     => 'Administrator',
-            'photo'    => 'default.png',
+            
         ]);
     }
 }
