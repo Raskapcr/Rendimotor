@@ -27,5 +27,12 @@ class UserSeeder extends Seeder
             'role'     => 'Staff',
             'photo'    => 'default.png',
         ]);
+        User::create([
+            'name'     => 'Raska',
+            'email'    => 'raska@gmail.com',
+            'password' => Hash::make('password123'), // Passwordnya: password123
+            'role'     => 'Administrator',
+            'photo'    => 'default.png',
+        ]);
     }
 }
